@@ -1,2 +1,4 @@
 # bike-rental-prediction
-Bike sharing rental prediction using Machine Learning, Python, and regression models on a cleaned Kaggle dataset.
+This project predicts hourly bike rental demand using weather and seasonal features.  
+The dataset is a cleaned version of the Kaggle Bike Sharing Dataset.  
+This is a 6th Semester Machine Learning mini-project using Python, Pandas, and Scikit-Learn.
