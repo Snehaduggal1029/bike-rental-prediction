@@ -1,4 +1,8 @@
-# bike-rental-prediction
-This project predicts hourly bike rental demand using weather and seasonal features.  
-The dataset is a cleaned version of the Kaggle Bike Sharing Dataset.  
-This is a 6th Semester Machine Learning mini-project using Python, Pandas, and Scikit-Learn.
+BIKE RENTAL SHARING PREDICTION
+This project focuses on predicting daily bike rental demand using machine learning based on historical usage data and environmental factors. The dataset contains features such as date, season, weather conditions, temperature, humidity, and wind speed, along with the recorded number of rented bikes. The goal is to develop a predictive model that can estimate future rental counts, which can assist bike-sharing companies in resource planning, inventory management, and operational decision-making.
+
+The workflow begins with data loading and preprocessing, including handling missing values, converting date features, and normalizing numerical variables. Exploratory data analysis (EDA) is performed to understand patterns such as seasonal variation, weather impact, and user behavior trends. Visualization techniques like line plots, scatter plots, and correlation heatmaps are used to reveal statistical relationships between features and rental count.
+
+After the analytical phase, machine learning is applied to build a prediction model. The dataset is split into training and testing subsets, and a regression algorithm (e.g., Linear Regression or Random Forest Regressor) is trained on the historical data. The performance of the model is evaluated using standard regression metrics such as Mean Absolute Error (MAE), Mean Squared Error (MSE), Root Mean Squared Error (RMSE), and R² score. These metrics measure how accurately the model predicts rental volume compared to actual recorded values.
+
+This project demonstrates practical skills in data preprocessing, feature engineering, model training, and performance evaluation using Python and common data science libraries such as Pandas, NumPy, Scikit-learn, Matplotlib, and Seaborn. The output provides insights into how weather and seasonal conditions influence bike rental demand and showcases how statistical modeling can support strategic decision-making. Future extensions may include experimenting with advanced models, hyperparameter tuning, or integrating real-time forecasting systems.
