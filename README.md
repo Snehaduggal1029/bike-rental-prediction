@@ -1,4 +1,4 @@
-BIKE RENTAL SHARING PREDICTION
+BIKE RENTAL SHARING PREDICTION-
 This project focuses on predicting daily bike rental demand using machine learning based on historical usage data and environmental factors. The dataset contains features such as date, season, weather conditions, temperature, humidity, and wind speed, along with the recorded number of rented bikes. The goal is to develop a predictive model that can estimate future rental counts, which can assist bike-sharing companies in resource planning, inventory management, and operational decision-making.
 
 The workflow begins with data loading and preprocessing, including handling missing values, converting date features, and normalizing numerical variables. Exploratory data analysis (EDA) is performed to understand patterns such as seasonal variation, weather impact, and user behavior trends. Visualization techniques like line plots, scatter plots, and correlation heatmaps are used to reveal statistical relationships between features and rental count.
